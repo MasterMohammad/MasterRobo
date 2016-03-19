@@ -82,7 +82,7 @@ install() {
 
   cd tg
   if [ $RET -ne 0 ]; then
-    autoconf -i
+  autoconf: -i
   fi
   ./configure && make
 
